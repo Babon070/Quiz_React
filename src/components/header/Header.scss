@@ -1,0 +1,17 @@
+header.header {
+    font-family: "Geologica", sans-serif;
+    box-shadow: 0 2px 4px #0006;
+  
+    .header__wrap {
+      display: flex;
+      height: 72px;
+  
+      &-title {
+        font-size: 35px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        color: rgb(180, 199, 203);
+      }
+    }
+  }
